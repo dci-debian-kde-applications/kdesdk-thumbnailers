@@ -1,7 +1,7 @@
 Source: kdesdk-thumbnailers
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
@@ -15,15 +15,24 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdesdk-thumbnailer.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdesdk-thumbnailer.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kdesdk-thumbnailer.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kdesdk-thumbnailer.git
 
 Package: kdesdk-thumbnailers
 Architecture: any
 Section: devel
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: kdesdk file format thumbnailers for KDE SC
+Description: kdesdk file format thumbnailers for KDE
  It contains a plugin to allow KDE software to create thumbnails for Gettext
  translations files (po).
  .
  This package is part of the KDE Software Development Kit module.
+ 
+Package: kdesdk-thumbnailers-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: ${misc:Depends}, kdesdk-thumbnailers (= ${binary:Version}), kde-runtime-dbg, kate-dbg
+Description: debugging symbols for kdesdk-thumbnailers
+ This package contains debugging files used to investigate problems with
+ binaries included in kdesdk-thumbnailers.
