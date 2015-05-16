@@ -2,6 +2,8 @@ kdesdk-thumbnailers (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * wrap-and-sort 
+  * Wrap-and-sort gone horribly wrong, deleted main package
+    and left only dbg package.. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 21:51:10 -0700
 

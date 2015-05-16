@@ -18,6 +18,16 @@ Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kdesdk-thumbnailers.git/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kdesdk-thumbnailers.git
 
+Package: kdesdk-thumbnailers
+Architecture: any
+Section: devel
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: kdesdk file format thumbnailers for KDE
+ It contains a plugin to allow KDE software to create thumbnails for Gettext
+ translations files (po).
+ .
+ This package is part of the KDE Software Development Kit module.
+
 Package: kdesdk-thumbnailers-dbg
 Architecture: any
 Section: debug
