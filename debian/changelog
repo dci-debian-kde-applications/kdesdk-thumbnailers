@@ -2,6 +2,7 @@ kdesdk-thumbnailers (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Adding new build deps for KF5 port
+  * Updating install file
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:50:17 +0000
 
