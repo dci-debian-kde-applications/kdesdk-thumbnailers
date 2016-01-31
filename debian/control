@@ -30,15 +30,3 @@ Description: kdesdk file format thumbnailers for KDE
  translations files (po).
  .
  This package is part of the KDE Software Development Kit module.
-
-Package: kdesdk-thumbnailers-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: kate-dbg,
-         kde-runtime-dbg,
-         kdesdk-thumbnailers (= ${binary:Version}),
-         ${misc:Depends}
-Description: debugging symbols for kdesdk-thumbnailers
- This package contains debugging files used to investigate problems with
- binaries included in kdesdk-thumbnailers.
