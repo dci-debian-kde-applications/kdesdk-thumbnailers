@@ -1,8 +1,12 @@
 kdesdk-thumbnailers (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Debian merge: Remaining changes,
     kept dbg package. 
   * New upstream release.
+
+  [ Clive Johnston ]
+  * Fixing path in .install file
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 03 Feb 2016 08:24:41 -0800
 
