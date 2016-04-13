@@ -1,3 +1,11 @@
+kdesdk-thumbnailers (4:15.12.0-2~1.gbpb40474) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b404746fdeb3b48e2e53c51a48822c3a5446e7d4 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:59:59 +0200
+
 kdesdk-thumbnailers (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
