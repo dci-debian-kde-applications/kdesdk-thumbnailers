@@ -1,6 +1,6 @@
-kdesdk-thumbnailers (4:15.12.0-2~2.gbp4bf40e) UNRELEASED; urgency=medium
+kdesdk-thumbnailers (4:15.12.0-2~3.gbpecb7af) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @4bf40e5de733080cb94ce4d29a966b0949830d3b **
+  ** SNAPSHOT build @ecb7afde67fdf5fd8253c1a2801ed71513802cd0 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @b404746fdeb3b48e2e53c51a48822c3a5446e7d4 **
@@ -11,8 +11,10 @@ kdesdk-thumbnailers (4:15.12.0-2~2.gbp4bf40e) UNRELEASED; urgency=medium
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update install files
+  * Use qt-kde-team 3 rules
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:59:16 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 25 May 2016 09:54:31 +0200
 
 kdesdk-thumbnailers (4:15.12.0-1) experimental; urgency=medium
 
