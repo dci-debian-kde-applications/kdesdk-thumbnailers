@@ -25,6 +25,8 @@ Package: kdesdk-thumbnailers
 Architecture: any
 Section: devel
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: kdesdk file format thumbnailers for KDE
  It contains a plugin to allow KDE software to create thumbnails for Gettext
  translations files (po).
